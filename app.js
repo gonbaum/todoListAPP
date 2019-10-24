@@ -28,6 +28,7 @@ function addTask(task){
 // clear the LIST
 function clearList(e){
   let ul = document.querySelector('ul').innerHTML = '';
+  document.querySelector('.tasksBoard').style.display = 'none';
 }
 
 // deleteTick
